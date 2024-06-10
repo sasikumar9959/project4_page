@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        <title>anime</title>
+
+
+      <script>
+        
+    function loginValidation() {
+                
+      var uname = document.myform.username.value;
+      
+      var password = document.myform.password.value;
+                if(uname==null || uname=="") {
+                  alert("Name cant be blank")
+                  return false;  
+               } else if (password.length<6){
+                  alert("Password Must be 6 letters")
+                  return false;
+               }  
+               return true                 
+            }           
+         </script>
+
+    </head>
+    <H1><font face="impact" size"15"  ></font>ANIME WORLD.....</H1>
+    <style>
+        
+        @media screen and (min-width:320px )  {
+
+               body {
+                    background-color: aqua;
+               }
+        }   
+        
+          @media Screen and (min-width:768px) and (max-width:1024px){
+              body {
+                    background-color: rgb(177, 48, 48);
+              }
+          }
+        
+        @media Screen and (min-width:1224px) {
+              body {
+                    background-color: rgb(48, 151, 8);
+              }
+          }
+          @media Screen and (min-width:1824px) {
+              body {
+                    background-color: rgb(101, 51, 208);
+              }
+          }
+
+</style>
+    <body>
+        <div class="loginBox">
+            <img class="user" src="image3.webp">
+        
+        
+        <form name="myform" action="HOMEPAGE.html" 	onsubmit="return loginValidation(this)">
+        <div>
+            <center><font color="white"><h1>Login page..</h1></font> </center>
+            <font color="white">User Name : <input type="text" name="username" autofocus> <br>
+            <br>
+            Password :  <input type="password" name="password" autofocus> <br>
+            <br></font>
+            <CENTER><a href="forgot.html">FORGOT PASSWORD</a><br></CENTER>
+            <input type="submit" value="submit"><br>
+            <br>
+            <CENTER><a href="REGISTERPAGE2.html">CREATE AN ACCOUNT</a></CENTER>
+        <link rel="stylesheet" href="register.css">
+        </center>
+        </form>
+    </body>
+</html>

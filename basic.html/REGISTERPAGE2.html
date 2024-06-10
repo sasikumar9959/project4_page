@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <script>
+                function loginvalidation(){
+                    var uname = document.myform.name.value;
+                    var email = document.myform.email.value;
+                    var phno = document.myform.phno.value;
+                    var username = document.myform.username.value;
+                    var pass = document.myform.pass.value;
+                    var confirmpass= document.myform.confirmpass.value;
+
+                    if(uname==null || uname==""){
+                        alert("Plase enter name ")
+                        return false;
+
+
+                    }
+                    else if(phno.length<10){
+                        alert("Phone number is minimum 10 digits")
+                        return false;
+                    }
+
+
+                    if(username==null || uname==""){
+                        alert("Plase enter valid user name ")
+                        return false;
+                    }
+
+
+                    else if(pass.length<6){
+                        alert("Password is minimum 6 digits")
+                        return false;
+                    }
+
+
+                    else if(confirmpass.length<6){
+                        alert("Password is minimum 6 digits")
+                        return false;
+                    }
+                    
+                }
+            </script>
+
+             <style>
+        
+        @media screen and (min-width:320px )  {
+
+               body {
+                    background-color: aqua;
+               }
+        }   
+        
+          @media Screen and (min-width:768px) and (max-width:1024px){
+              body {
+                    background-color: rgb(177, 48, 48);
+              }
+          }
+        
+        @media Screen and (min-width:1224px) {
+              body {
+                    background-color: rgb(48, 151, 8);
+              }
+          }
+          @media Screen and (min-width:1824px) {
+              body {
+                    background-color: rgb(101, 51, 208);
+              }
+          }
+
+</style>
+        </head>
+        <body>
+            
+        </body>
+        </html>
+        <link rel="stylesheet" href="register1.css">
+        <title>
+            register
+        </title>
+    </head>
+    <h1></h1>
+    <body>
+        <nav>
+            <form name="myform" action="HOMEPAGE.html" onsubmit="return loginvalidation(this)">
+            <li><a id="Home" href="HOMEPAGE.html"><h1>Home</h1></a></li>
+         </nav>
+         <div class="loginBox">
+            <img class="user" src="image3.webp">
+        
+        <br>
+        <center><FONT COLOR="white">REGISTER HERE!</FONT></center>
+        <br><br>
+        ENTER YOUR NAME :
+        <input type="NAME" name="name" placeholder="Name" autofocus><br><br>
+        ENTER YOUR GMAIL :
+        <input type="email" placeholder="Gamil" list="email" name="email" ><br><br>
+        ENTER YOUR NUMBER :
+        <input type="NAME" placeholder="PH Number" pattern="[0-9]{10}" name="phno"><br><br>
+        User Name:<input type="text" name="username" placeholder="User Name" ><br>
+        <br>
+        Password :<input type="password" name="pass" placeholder="Password"><br><br>
+        Confirm Password :<input type="password" name="confirmpass" placeholder="Confim Password"><br><br>
+                <input id="sub" type="SUBMIT"  value="submit">
+                </div>
+            </form>
+
+    </body>
+</html>

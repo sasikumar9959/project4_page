@@ -1,0 +1,141 @@
+body{
+    background-image: url("wp5073942.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+
+  nav {
+    color:white;
+    word-spacing: 16700%;
+  }
+  
+  
+  
+  nav {
+    background-color: #f1e5e5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 150%;
+    background: transparent;
+  }
+  
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+
+  }
+  
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    background: transparent;
+  }
+  
+  
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 30%;
+    background: transparent;
+  }
+  
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 40px;
+    background: transparent;
+  }
+  
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+  }
+
+
+  a{
+    color:white;
+    font-size: 100%;
+    text-align: right;
+    text-decoration: none;
+  }
+  p{
+    font-size: 80%;
+    color: rgb(224, 229, 225);
+    opacity: 0.7s;
+    border-radius: 100px;
+  }
+
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+  }
+  .col{
+    flex-basis: 50%;
+  }
+  h1{
+    color: #fff;
+    font-size: 100px;
+    
+  }
+  p{
+    columns: white;
+    font-size: 120%;
+    line-height: 22px;
+  }
+  buttton{
+    width: 50%;
+    color: #000;
+    font-size: 100%;
+    outline: black;
+    margin-top: 40px;
+  }
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.4s;
+
+  }
+  .card1{
+    background-image: url("image3.webp");
+    margin-left: 100px;
+  }
+  .card2{
+    background-image: url("tokyo ghoul.webp");
+  }
+  .card3{
+    background-image: url("image1.png");
+    margin-left: 100px;
+  }
+  .card4{
+    background-image: url("back.webp");
+  }
+
+  .card:hover{
+    transform: translateY(-10px);
+  }
